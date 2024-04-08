@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced html table</title>
+  </head>
+  <body>
+    <h1>Advanced Html Table</h1>
+    <hr />
+    <table style="width: 100%; border: 1px solid #ccc; margin: 20px 0">
+      <!--caption-->
+      <caption
+        style="text-align: left; font-weight: bolder; margin-bottom: 10px"
+      >
+        Sales Report
+      </caption>
+      <colgroup>
+        <col style="width: 20%" />
+        <col style="width: 30%" />
+        <col style="width: 25%" />
+        <col style="width: 20%" />
+      </colgroup>
+      <!--table head-->
+      <thead>
+        <tr style="background-color: #ccc">
+          <th
+            style="padding: 10px; border: 1px solid #aaaaaa; text-align: left"
+          >
+            Region
+          </th>
+          <th
+            style="padding: 10px; border: 1px solid #aaaaaa; text-align: left"
+          >
+            Product
+          </th>
+          <th
+            style="padding: 10px; border: 1px solid #aaaaaa; text-align: left"
+          >
+            QTY
+          </th>
+          <th
+            style="padding: 10px; border: 1px solid #aaaaaa; text-align: left"
+          >
+            TOTAL SALARY
+          </th>
+        </tr>
+      </thead>
+      <!--TABLE BODY-->
+      <tbody style="padding: auto; background-color: aliceblue">
+        <tr>
+          <td style="padding: 1px solid #ccc">north</td>
+          <td style="padding: 1px solid #ccc">b</td>
+          <td style="padding: 1px solid #ccc">2</td>
+          <td style="padding: 1px solid #ccc">223</td>
+        </tr>
+        <tr>
+          <td style="padding: 1px solid #ccc">south</td>
+          <td style="padding: 1px solid #ccc">a</td>
+          <td style="padding: 1px solid #ccc">1</td>
+          <td style="padding: 1px solid #ccc">123</td>
+        </tr>
+        <tr>
+          <td style="padding: 1px solid #ccc">east</td>
+          <td style="padding: 1px solid #ccc">c</td>
+          <td style="padding: 1px solid #ccc">3</td>
+          <td style="padding: 1px solid #ccc">423</td>
+        </tr>
+        <tr>
+          <td style="padding: 1px solid #ccc">west</td>
+          <td style="padding: 1px solid #ccc">d</td>
+          <td style="padding: 1px solid #ccc">10</td>
+          <td style="padding: 1px solid #ccc">223</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td style="padding: 1px solid #ccc; font-size: 30px">total sales</td>
+          <td
+            style="
+              padding: 1px solid #ccc;
+              font-size: 30px;
+              text-align: right;
+              color: red;
+            "
+          >
+            9000
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

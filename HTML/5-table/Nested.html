@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nested tables</title>
+  </head>
+  <body>
+    <h1>Employee nesting html</h1>
+    <hr />
+    <table
+      style="background-color: aliceblue; border-radius: 2px; padding: auto"
+    >
+      <caption style="background-color: aqua; border-radius: 2px">
+        Employees information
+      </caption>
+      <!-- <colgroup>
+        <col style="width: 20px" />
+        <col style="width: 20px" />
+        <col style="width: 20px" />
+        <col style="width: 40px" /> -->
+      </colgroup>
+      <th style="background-color: brown;padding: auto
+      ;margin-bottom: 0%;">Name</th>
+      <th style="background-color: brown;padding: auto
+      ;margin-bottom: 0%;">Age</th>
+      <th style="background-color: brown;padding: auto
+      ;margin-bottom: 0%;">Gender</th>
+      <th style="background-color: brown">Department</th>
+      <tr style="padding: 0%">
+        <td>a</td>
+        <td>1</td>
+        <td>m</td>
+        <!--nesting of the table-->
+        <td>
+          <table>
+            <!-- <colgroup>
+              <col style="width: 33px" />
+              <col style="width: 33px" />
+              <col style="width: 33px" />
+            </colgroup> -->
+            <!--nested table head-->
+            <tr>
+              <th style="border-color: aliceblue;padding-right: 10px;width: auto;">Department name</th>
+              <th style="border-color: aliceblue;padding-right: 10px;width: auto;">Manager</th>
+              <th style="border-color: aliceblue;padding-right: 10px;width: auto;">Sales</th>
+            </tr>
+            <tr>
+              <td>sales</td>
+              <td>emma</td>
+              <td>2000</td>
+            </tr>
+            <tr>
+              <td>it</td>
+              <td>ellaa</td>
+              <td>2000</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>b</td>
+        <td>2</td>
+        <td>l</td>
+        <!--nesting of the table-->
+        <td>
+          <table>
+            <!--nested table head-->
+            <tr>
+              <th style="border-color: aliceblue;padding-right: 10px;">Department name</th>
+              <th style="border-color: aliceblue;padding-right: 10px;">Manager</th>
+              <th style="border-color: aliceblue;padding-right: 10px;">Sales</th>
+            </tr>
+            <tr>
+              <td>sales</td>
+              <td>eff</td>
+              <td>2000</td>
+            </tr>
+            <tr>
+              <td>it</td>
+              <td>eaa</td>
+              <td>2000</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
