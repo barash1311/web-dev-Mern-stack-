@@ -1,0 +1,50 @@
+#header {
+  color: red;
+  text-align: center;
+}
+#name {
+  font-style: italic;
+}
+#about {
+  font-style: oblique;
+  background-color: red;
+  border-radius: 2cm;
+  padding: 15px;
+}
+#about-title {
+  font-size: 30px;
+  padding-left: 30px;
+}
+#description {
+  margin-left: 20px;
+  font-style: bold;
+}
+#projects {
+  background-color: red;
+  border-radius: 2cm;
+  height: 130px;
+}
+#about-project {
+  text-align: center;
+}
+#Project1 {
+  font-style: italic;
+  font-size: large;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+#Project2 {
+  font-style: italic;
+  font-size: large;
+  padding-left: 20px;
+  margin-left: 20px;
+  /* text-align: center; */
+}
+#footer {
+  background-color: red;
+  border-radius: 2cm;
+}
+#contact {
+  text-align: center;
+  font-style: bold;
+}
