@@ -1,0 +1,39 @@
+#recipes {
+  background-color: blue;
+  padding: 15px;
+  border-radius: 2cm;
+  margin-top: 2px;
+}
+#recipes .recipe {
+  background-color: red;
+  border-radius: 2cm;
+}
+#reviews {
+  margin-top: 3px;
+  background-color: pink;
+  padding: 15px;
+  border-radius: 2cm;
+}
+#reviews .review {
+  background-color: red;
+  border-radius: 2cm;
+}
+
+#recipes h3 {
+  background-color: black;
+  width: fit-content;
+  border-radius: 2cm;
+}
+#recipes p {
+  padding-left: 10px;
+  margin-left: 10px;
+}
+#reviews p {
+  padding-left: 10px;
+  margin-left: 10px;
+}
+#reviews h3 {
+  background-color: black;
+  width: fit-content;
+  border-radius: 2cm;
+}
