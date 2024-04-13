@@ -1,0 +1,21 @@
+#departments {
+  background-color: white;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: 1px solid black;
+}
+#departments > .department {
+  background-color: red;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+#departments > .department > h2 {
+  color: blue;
+  border-bottom: 2px solid white;
+}
+#departments > .department > .course {
+  color: blue;
+  border-bottom: 1px;
+}
