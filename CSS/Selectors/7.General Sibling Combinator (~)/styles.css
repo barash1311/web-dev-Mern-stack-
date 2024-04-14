@@ -1,0 +1,26 @@
+body {
+  background-color: #f2f3f4;
+  font-family: "Times New Roman", Times, serif;
+}
+#recipes {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
+  background-color: red;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rebeccapurple;
+}
+.recipe {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: red;
+}
+.recipe h2 {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.ingrient ~ .tips {
+  background-color: red;
+}
