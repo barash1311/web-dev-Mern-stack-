@@ -43,7 +43,7 @@ footer {
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: absolute;
-  left-top: 10px;
+  left: 10px;
   right: 0px;
-  left-bottom: 0px;
+  bottom: 0px;
 }
