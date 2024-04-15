@@ -1,0 +1,14 @@
+.header {
+  background-color: yellow;
+  height: 100vh;
+}
+@media (min-width: 375px) {
+  .header {
+    background-color: blue;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    background-color: green;
+  }
+}
