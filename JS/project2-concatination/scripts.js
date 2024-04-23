@@ -7,8 +7,8 @@ const fullName = firstName + " " + lastName;
 console.log(fullName);
 
 // Using the concat() method to combine strings
-const str1 = "hello";
-const str2 = "world";
+// const str1 = "hello";
+// const str2 = "world";
 const combined = str1.concat(" ", str2);
 console.log(combined);
 
@@ -42,12 +42,12 @@ const word = greeting1.slice(6, 11);
 console.log(word);
 
 // Splitting strings
-const str1 = "I love coding in JavaScript";
+// const str1 = "I love coding in JavaScript";
 const wordsArray = str1.split(" ");
 console.log(wordsArray);
 
 // Trimming whitespace
-const str2 = "  barash1311@gmail.com ";
+// const str2 = "  barash1311@gmail.com ";
 const trimmedStr = str2.trim();
 console.log(trimmedStr);
 
