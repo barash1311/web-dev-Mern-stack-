@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Events Examples</title>
+  </head>
+  <body>
+    <h2>DOM Events Examples</h2>
+
+    <!-- Example for addEventListener() Method -->
+    <button id="myButton">Click me</button>
+
+    <!-- Example for event.stopPropagation() Method -->
+    <div id="outer" style="border: 1px solid black; padding: 20px">
+      Outer Div
+      <div id="inner" style="border: 1px solid red; padding: 20px">
+        Inner Div
+      </div>
+    </div>
+
+    <!-- Example for Event Delegation -->
+    <ul id="myList">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
+    <!-- Script Section -->
+    <script>
+      // Add Event Listener Example
+      const button = document.getElementById("myButton");
+      button.addEventListener("click", function () {
+        console.log("Button clicked!");
+      });
+
+      // Event.stopPropagation() Example
+      document
+        .getElementById("inner")
+        .addEventListener("click", function (event) {
+          event.stopPropagation();
+          console.log("Inner clicked!");
+        });
+
+      document.getElementById("outer").addEventListener("click", function () {
+        console.log("Outer clicked!");
+      });
+
+      // Event Delegation Example
+      document
+        .getElementById("myList")
+        .addEventListener("click", function (event) {
+          if (event.target.tagName === "LI") {
+            console.log("Clicked on:", event.target.textContent);
+          }
+        });
+
+      // Creating and Triggering Custom Events Example
+      const customEvent = new Event("customEventName");
+
+      document.addEventListener("customEventName", function (event) {
+        console.log("Custom event triggered!");
+      });
+
+      document.querySelector("button").addEventListener("click", function () {
+        document.dispatchEvent(customEvent);
+      });
+    </script>
+  </body>
+</html>
