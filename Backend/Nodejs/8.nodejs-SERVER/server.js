@@ -1,6 +1,6 @@
 //1.import the required modules
 const http = require("http");
-// console.log(http);
+
 //2. define the handler
 const requesthandler = (req, res) => {
   console.log(req);
